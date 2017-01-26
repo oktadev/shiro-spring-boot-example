@@ -1,0 +1,12 @@
+{
+  "name": "ApacheShiroSpringBootExampleRunner",
+  "description": "An example of using Apache Shiro Spring-Boot application.",
+  "keywords": [
+    "shiro",
+    "servlet",
+    "spring",
+    "java"
+  ],
+  "repository": "https://github.com/stormpath/shiro-spring-boot-example",
+  "success_url": "/troopers"
+}
