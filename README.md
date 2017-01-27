@@ -1,5 +1,5 @@
-Apache Shiro JAX-RS Example
-===========================
+Apache Shiro Spring-Boot Example
+================================
 
 This example can be run using the Apache Maven command: `mvn spring-boot:run`
 
