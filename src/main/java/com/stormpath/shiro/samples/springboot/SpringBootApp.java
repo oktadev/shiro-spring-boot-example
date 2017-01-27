@@ -73,7 +73,6 @@ public class SpringBootApp {
     public ShiroFilterChainDefinition shiroFilterChainDefinition() {
         DefaultShiroFilterChainDefinition chainDefinition = new DefaultShiroFilterChainDefinition();
         // use permissive to NOT require authentication, our controller Annotations will decide that
-//        chainDefinition.addPathDefinition("/**", "noSessionCreation, authcBasic[permissive]");
         chainDefinition.addPathDefinition("/**", "authcBasic[permissive]");
         return chainDefinition;
     }
