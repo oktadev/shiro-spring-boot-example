@@ -30,8 +30,7 @@
     <properties>
 
         <spring-boot.version>1.4.1.RELEASE</spring-boot.version>
-        <!--<spring.version>4.3.2.RELEASE</spring.version>-->
-        <shiro.version>1.4.0-RC2</shiro.version>
+        <shiro.version>1.4.0</shiro.version>
 
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -56,20 +55,12 @@
     </build>
 
     <dependencies>
-
-        <!--<dependency>-->
-            <!--<groupId>org.apache.shiro</groupId>-->
-            <!--<artifactId>shiro-servlet-plugin</artifactId>-->
-            <!--<version>${shiro.version}</version>-->
-        <!--</dependency>-->
-
+    
         <dependency>
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-spring-boot-web-starter</artifactId>
             <version>${shiro.version}</version>
         </dependency>
-
-
 
         <!-- Spring -->
         <dependency>
